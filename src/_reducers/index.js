@@ -1,4 +1,4 @@
-import characters_json from '../_data/characters_json';
+import characters_json from '../_data/characters.json';
 
 function characters(state = characters_json, action) {
 	switch(action.type) {
