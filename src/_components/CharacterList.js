@@ -38,13 +38,13 @@ function mapStateToProps(state) {
 	};
 }
 
-function mapDispatchToProps(dispatch) {
+/*function mapDispatchToProps(dispatch) {
 	// bind action creators onto props of the component
 	return bindActionCreators({ addCharacterById }, dispatch);
-}
+}*/
 
 // connect our component to our redux state
 // pass in the component we want to connect to our redux
 // Param 1: get our redux state as props for our component
 // Param 2: binds our action creators to our props on the component so that it can call action creators, activate reducers, and update the store
-export default connect(mapStateToProps, mapDispatchToProps)(CharacterList);
+export default connect(mapStateToProps, { addCharacterById })(CharacterList);
