@@ -13,12 +13,7 @@
 	height: 100%;
 	right: 0;
 	top: 0;
-	background: #eee;
 	cursor: pointer;
-}
-
-.right-button:hover {
-	background: #ccc;
 }
 
 .right-button span {

@@ -17,7 +17,7 @@ class CharacterList extends React.Component {
 								<li key={character.id} className="list-group-item">
 									<div className="list-item">{character.name}</div>
 									<div 
-										className="list-item right-button"
+										className="list-item right-button btn btn-primary"
 										onClick={() => this.props.addCharacterById(character.id)}>
 										<span>+</span>
 									</div>
