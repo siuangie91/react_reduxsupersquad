@@ -17,7 +17,7 @@ class HeroList extends React.Component {
 									<div 
 										className="list-item right-button btn btn-danger"
 										onClick={() => this.props.removeCharacterById(hero.id)}>
-										<span>-</span>
+										<span>&times;</span>
 									</div>
 								</li>
 							);

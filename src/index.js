@@ -18,8 +18,9 @@ console.log('store.getState()', store.getState());
 store.subscribe(() => {
 	console.log('store', store.getState());
 });
+
 // use the store and dispatch the action
-store.dispatch(addCharacterById(2));
+// store.dispatch(addCharacterById(2));
 
 ReactDOM.render(
 	<Provider store={store}>
