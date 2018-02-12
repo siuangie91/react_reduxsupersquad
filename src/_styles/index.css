@@ -1,0 +1,31 @@
+.App {
+	text-align: center;
+	padding: 5%;
+}
+
+.list-item {
+	display: inline-block;
+}
+
+.right-button {
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	right: 0;
+	top: 0;
+	background: #eee;
+	cursor: pointer;
+}
+
+.right-button:hover {
+	background: #ccc;
+}
+
+.right-button span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
