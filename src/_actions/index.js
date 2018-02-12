@@ -8,7 +8,6 @@ export function addCharacterById(id) {
 		id,
 		type: ADD_CHARACTER,
 	}
-
 	return action;
 }
 
@@ -17,6 +16,5 @@ export function removeCharacterById(id) {
 		id,
 		type: DELETE_CHARACTER,
 	}
-
 	return action;
 }

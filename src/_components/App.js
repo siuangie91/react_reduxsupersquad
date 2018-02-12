@@ -1,6 +1,7 @@
 import React from 'react';
 import CharacterList from './CharacterList';
 import HeroList from './HeroList';
+import SquadStats from './SquadStats';
 
 import '../_styles/index.css';
 
@@ -14,6 +15,7 @@ export class App extends React.Component {
 				</div>
 				<div className="col-sm-6">
 					<HeroList />
+					<SquadStats />
 				</div>
 			</div>
 		);
